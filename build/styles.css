@@ -1,31 +1,33 @@
 @import url(http://fonts.googleapis.com/css?family=Arimo&subset=latin,cyrillic);
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-body {
-  background-color: #EEEEEE;
+body.llsn {
   background: url('/img/bg.png') repeat;
   font-family: 'Arimo', Arial, sans-serif;
   font-size: 15px;
 }
-.content {
-  width: 750px;
+body.llsn .content {
+  width: 800px;
   padding: 70px;
-  margin: 0 40% 0 10%;
+  margin: 0 0 0 15%;
   background-color: #fff;
   display: flex;
   flex: 1;
-  height: 100%;
   flex-direction: column;
   text-align: left;
   box-shadow: 1px 0px 12px -2px rgba(107, 107, 107, 0.84);
 }
-.b-header {
+body.llsn .b-header {
   padding-top: 30px;
   font-size: 25px;
   font-weight: 400;
   font-family: 'Arimo', Arial, sans-serif;
   color: #000000;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+body {
+  background: none;
 }
