@@ -170,17 +170,6 @@ body.llsn .back .back__link:visited,
 body.llsn .back .back__link:active {
   color: #15c;
 }
-body.llsn .link-menu {
-  list-style-type: none;
-}
-body.llsn .link-menu__link:link,
-body.llsn .link-menu__link:hover {
-  color: #15c;
-}
-body.llsn .link-menu__link:visited,
-body.llsn .link-menu__link:active {
-  color: #61c;
-}
 body.llsn .available-lang__example .showcode-switcher {
   text-align: right;
 }
@@ -242,8 +231,25 @@ body .m-header {
   font-size: 21px;
   font-weight: 400;
 }
+body .s-header {
+  padding-top: 15px;
+  font-family: 'Arimo', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
 body .logo {
   position: absolute;
   left: 25px;
   top: 25px;
+}
+body .link-menu {
+  list-style-type: none;
+}
+body .link-menu__link:link,
+body .link-menu__link:hover {
+  color: #15c;
+}
+body .link-menu__link:visited,
+body .link-menu__link:active {
+  color: #61c;
 }

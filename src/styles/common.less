@@ -40,9 +40,32 @@ body {
     font-size: 21px;
     font-weight: 400;
   }
+
+  .s-header {
+    padding-top: 15px;
+    font-family: 'Arimo', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
   .logo {
     position: absolute;
     left: 25px;
     top: 25px;
+  }
+
+  .link-menu {
+    list-style-type: none;
+  }
+  .link-menu__item {
+
+  }
+  .link-menu__link {
+    &:link, &:hover {
+      color: #15c;
+    }
+    &:visited, &:active {
+      color: #61c;
+    }
   }
 }
