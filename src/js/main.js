@@ -1,3 +1,5 @@
-(function () {
-    console.log('main ready')
-})
+var $ = global.jQuery = require("./vendors/jquery");
+
+$(function () {
+   console.log('hello');
+});

@@ -46,11 +46,10 @@ module.exports = function(grunt) {
 
         watch: {
             files: ['src/js/**/*.js', 'src/styles/**/*.less'],
-            tasks: ['jshint']
+            tasks: ['default']
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-less');
