@@ -5,7 +5,13 @@ body.llsn {
   font-size: 15px;
   line-height: 20px;
 }
+body.llsn .language-selector {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 body.llsn .content {
+  position: relative;
   width: 800px;
   padding: 70px;
   margin: 0 0 0 15%;
