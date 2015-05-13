@@ -5,13 +5,13 @@
             LLSN Documentation
         </title>
         <link href="/build/styles.min.css" type="text/css" rel="stylesheet" />
-        <script src="/build/main.min.js"></script>
+        <script src="/build/main.js"></script>
     </head>
     <body class="llsn">
         <div class="language-selector"><a href="/opensource/llsn/">EN</a></div>
         <div class="content">
             <div class="logo"><img src="/img/doclogo.png" /></div>
-            <div class="back"><a class="link-menu__link" href="/">Back</a></div>
+            <div class="back"><a class="back__link" href="/">Back</a></div>
             <h1 class="b-header">LLSN specification (version 1)</h1>
             <p>Это бинарный формат кодирования структурированной информации,
                 разработанный специально для интеграционной платформы Allyst.</p>
@@ -133,12 +133,23 @@
             </p>
 
             <h2 class="m-header" id="available-implementation">Общая структура кодирования</h2>
-            <p>
-                <div class="available-lang">Golang  <a href="#github">ссылка на гитхаб</a></div>
-                <div class="available-lang__example">
-                    <a href="#example" class="available-lang__example-link js-lang-example">пример использования</a>
-                </div>
-            </p>
+            <div class="available-lang">Golang  <a href="#github">ссылка на гитхаб</a></div>
+            <div class="available-lang__example">
+                <!-- СОХРАНИТЬ СТРУКТУРУ! Тэг "pre" должен следовать за блоком с классом "js-lang-example"-->
+                <a href="#example" class="available-lang__example-link js-lang-example">пример использования</a>
+                <pre class="code-example">
+                    <code>
+package main
+
+import "fmt"
+
+func main() {
+    var a [5]int
+    fmt.Println("emp:", a)
+}
+</code>
+                </pre>
+            </div>
         </div>
     </body>
 </html>

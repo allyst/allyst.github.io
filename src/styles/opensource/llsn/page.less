@@ -20,6 +20,11 @@ body.llsn {
     position: absolute;
     top: 25px;
     font-size: 17px;
+    .back__link {
+      &:link, &:hover, &:visited, &:active {
+        color: #15c;
+      }
+    }
   }
 
   .link-menu {
@@ -41,7 +46,19 @@ body.llsn {
 
   }
 
-  .available-lang__example {}
+  .available-lang__example {
+    .showcode-switcher {
+      text-align: right;
+    }
+    .code-example {
+      line-height: 16px;
+      margin: 0;
+      margin-top: 0;
+      code {
+        padding-top: 0;
+      }
+    }
+  }
 
   .available-lang__example-link {
     font-size: 13px;

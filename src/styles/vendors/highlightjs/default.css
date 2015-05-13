@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Arimo&subset=latin,cyrillic);
 /*
 
 Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
 
 */
+
 .hljs {
   display: block;
   overflow-x: auto;
@@ -11,12 +11,14 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
   background: #f0f0f0;
   -webkit-text-size-adjust: none;
 }
+
 .hljs,
 .hljs-subst,
 .hljs-tag .hljs-title,
 .nginx .hljs-title {
   color: black;
 }
+
 .hljs-string,
 .hljs-title,
 .hljs-constant,
@@ -47,6 +49,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .coffeescript .hljs-attribute {
   color: #800;
 }
+
 .smartquote,
 .hljs-comment,
 .hljs-annotation,
@@ -56,6 +59,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .markdown .hljs-blockquote {
   color: #888;
 }
+
 .hljs-number,
 .hljs-date,
 .hljs-regexp,
@@ -73,6 +77,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .markdown .hljs-link_url {
   color: #080;
 }
+
 .hljs-label,
 .hljs-javadoc,
 .ruby .hljs-string,
@@ -104,6 +109,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .hljs-phony {
   color: #88f;
 }
+
 .hljs-keyword,
 .hljs-id,
 .hljs-title,
@@ -127,13 +133,16 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .hljs-status {
   font-weight: bold;
 }
+
 .asciidoc .hljs-emphasis,
 .markdown .hljs-emphasis {
   font-style: italic;
 }
+
 .nginx .hljs-built_in {
   font-weight: normal;
 }
+
 .coffeescript .javascript,
 .javascript .xml,
 .lasso .markup,
@@ -143,107 +152,4 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .xml .css,
 .xml .hljs-cdata {
   opacity: 0.5;
-}
-body.llsn .logo {
-  position: absolute;
-  top: 25px;
-  left: 0;
-  width: 100%;
-  text-align: right;
-}
-body.llsn .logo img {
-  margin-right: 25px;
-}
-body.llsn .language-selector {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-body.llsn .back {
-  position: absolute;
-  top: 25px;
-  font-size: 17px;
-}
-body.llsn .back .back__link:link,
-body.llsn .back .back__link:hover,
-body.llsn .back .back__link:visited,
-body.llsn .back .back__link:active {
-  color: #15c;
-}
-body.llsn .link-menu {
-  list-style-type: none;
-}
-body.llsn .link-menu__link:link,
-body.llsn .link-menu__link:hover {
-  color: #15c;
-}
-body.llsn .link-menu__link:visited,
-body.llsn .link-menu__link:active {
-  color: #61c;
-}
-body.llsn .available-lang__example .showcode-switcher {
-  text-align: right;
-}
-body.llsn .available-lang__example .code-example {
-  line-height: 16px;
-  margin: 0;
-  margin-top: 0;
-}
-body.llsn .available-lang__example .code-example code {
-  padding-top: 0;
-}
-body.llsn .available-lang__example-link {
-  font-size: 13px;
-}
-body.llsn .available-lang__example-link:link,
-body.llsn .available-lang__example-link:hover {
-  color: #333;
-}
-body.llsn .available-lang__example-link:visited,
-body.llsn .available-lang__example-link:active {
-  color: #333;
-}
-body,
-html {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  width: 100%;
-}
-body {
-  display: flex;
-  justify-content: center;
-  background: url('/img/bg.png') repeat fixed;
-  font-family: 'Arimo', Arial, sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-}
-body .content {
-  position: relative;
-  max-width: 700px;
-  padding: 70px;
-  background-color: #fff;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  text-align: left;
-  box-shadow: 1px 0px 12px -2px rgba(107, 107, 107, 0.84);
-}
-body .b-header {
-  padding-top: 30px;
-  font-size: 25px;
-  font-weight: 400;
-  font-family: 'Arimo', Arial, sans-serif;
-  color: #000000;
-}
-body .m-header {
-  padding-top: 15px;
-  font-family: 'Arimo', Arial, sans-serif;
-  font-size: 21px;
-  font-weight: 400;
-}
-body .logo {
-  position: absolute;
-  left: 25px;
-  top: 25px;
 }
