@@ -3,6 +3,7 @@ body.llsn {
   background: url('/img/bg.png') repeat;
   font-family: 'Arimo', Arial, sans-serif;
   font-size: 15px;
+  line-height: 20px;
 }
 body.llsn .content {
   width: 800px;
@@ -21,6 +22,23 @@ body.llsn .b-header {
   font-weight: 400;
   font-family: 'Arimo', Arial, sans-serif;
   color: #000000;
+}
+body.llsn .m-header {
+  padding-top: 15px;
+  font-family: 'Arimo', Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+body.llsn .link-menu {
+  list-style-type: none;
+}
+body.llsn .link-menu__link:link,
+body.llsn .link-menu__link:hover {
+  color: #15c;
+}
+body.llsn .link-menu__link:visited,
+body.llsn .link-menu__link:active {
+  color: #61c;
 }
 body,
 html {

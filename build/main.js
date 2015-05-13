@@ -3,7 +3,7 @@
 var $ = global.jQuery = require("./vendors/jquery");
 
 $(function () {
-   console.log('hello');
+
 });
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
