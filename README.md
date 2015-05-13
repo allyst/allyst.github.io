@@ -17,3 +17,5 @@ you should do following steps:
 ### Development:
 1. run `npm install` for installing dev dependencies
 2. run `grunt` for build scripts and styles
+
+For code syntax highlighting used Highlight.js (https://highlightjs.org/download/)

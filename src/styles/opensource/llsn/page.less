@@ -1,43 +1,25 @@
 // Для каждой страницы устанавливается свой класс body
 body.llsn {
-  background: url('/img/bg.png') repeat;
-  font-family: 'Arimo', Arial, sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  //letter-spacing: 1px;
-
+  .logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    img {
+      margin-right: 25px;
+    }
+  }
   .language-selector {
     position: absolute;
     top:0;
     right: 0;
   }
 
-  .content {
-    position: relative;
-    width: 800px;
-    padding: 70px;
-    margin: 0 0 0 15%;
-    background-color: #fff;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    text-align: left;
-    box-shadow: 1px 0px 12px -2px rgba(107,107,107,0.84);
-  }
-
-  .b-header {
-    padding-top: 30px;
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 'Arimo', Arial, sans-serif;
-    color: #000000;
-  }
-
-  .m-header {
-    padding-top: 15px;
-    font-family: 'Arimo', Arial, sans-serif;
-    font-size: 21px;
-    font-weight: 400;
+  .back {
+    position: absolute;
+    top: 25px;
+    font-size: 17px;
   }
 
   .link-menu {
@@ -52,6 +34,22 @@ body.llsn {
     }
     &:visited, &:active {
       color: #61c;
+    }
+  }
+
+  .available-lang {
+
+  }
+
+  .available-lang__example {}
+
+  .available-lang__example-link {
+    font-size: 13px;
+    &:link, &:hover {
+      color: #333;
+    }
+    &:visited, &:active {
+      color: #333;
     }
   }
 }

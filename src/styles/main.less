@@ -5,5 +5,40 @@
 @import 'common.less';
 
 body {
-  background: none;
+  background: url('/img/bg.png') repeat fixed;
+  font-family: 'Arimo', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+
+  .content {
+    position: relative;
+    max-width: 700px;
+    padding: 70px;
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 1px 0px 12px -2px rgba(107,107,107,0.84);
+  }
+
+  .b-header {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Arimo', Arial, sans-serif;
+    color: #000000;
+  }
+
+  .m-header {
+    padding-top: 15px;
+    font-family: 'Arimo', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .logo {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+  }
 }
