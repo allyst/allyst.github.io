@@ -228,104 +228,116 @@
             <h2 class="m-header" id="typesid-table">Таблица идентификаторов типов</h2>
             <span>декларация нового типа должна соответствовать модели:
             <p>NEW_TYPE_ID_NULL = TYPE_UNDEFINED_NULL - NEW_TYPE_ID</p></span>
-            <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-031e">Type</th>
-    <th class="tg-031e">ID</th>
-    <th class="tg-031e">NULL alt</th>
-    <th class="tg-031e">ID</th>
-  </tr>
-  <tr>
-    <td class="tg-031e" colspan="4">Base types</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_UNDEFINED</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">TYPE_UNDEFINED_NULL</td>
-    <td class="tg-031e">255</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_NUMBER</td>
-    <td class="tg-031e">1</td>
-    <td class="tg-031e">TYPE_NUMBER_NULL</td>
-    <td class="tg-031e">254</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_FLOAT</td>
-    <td class="tg-031e">2</td>
-    <td class="tg-031e">TYPE_FLOAT_NULL</td>
-    <td class="tg-031e">253</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_STRING</td>
-    <td class="tg-031e">3</td>
-    <td class="tg-031e">TYPE_STRING_NULL</td>
-    <td class="tg-031e">252</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_BLOB</td>
-    <td class="tg-031e">4</td>
-    <td class="tg-031e">TYPE_BLOB_NULL</td>
-    <td class="tg-031e">251</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_FILE</td>
-    <td class="tg-031e">5</td>
-    <td class="tg-031e">TYPE_FILE_NULL</td>
-    <td class="tg-031e">250</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_DATE</td>
-    <td class="tg-031e">6</td>
-    <td class="tg-031e">TYPE_DATE_NULL</td>
-    <td class="tg-031e">249</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_BOOL</td>
-    <td class="tg-031e">7</td>
-    <td class="tg-031e">TYPE_BOOL_NULL</td>
-    <td class="tg-031e">248</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_STRUCT</td>
-    <td class="tg-031e">8</td>
-    <td class="tg-031e">TYPE_STRUCT_NULL</td>
-    <td class="tg-031e">247</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_ARRAY</td>
-    <td class="tg-031e">9</td>
-    <td class="tg-031e">TYPE_ARRAY_NULL</td>
-    <td class="tg-031e">246</td>
-  </tr>
-  <tr>
-    <td class="tg-031e" colspan="4">Secondary types</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_ARRAYN</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">TYPE_ARRAYN_NULL</td>
-    <td class="tg-031e">245</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_POINTER</td>
-    <td class="tg-031e">11</td>
-    <td class="tg-031e">TYPE_POINTER_NULL</td>
-    <td class="tg-031e">244</td>
-  </tr>
-  <tr>
-    <td class="tg-031e">TYPE_UNUMBER</td>
-    <td class="tg-031e">12</td>
-    <td class="tg-031e">TYPE_UNUMBER_NULL</td>
-    <td class="tg-031e">243</td>
-  </tr>
-</table>
 
+            <h3 class="table-header">Base types</h3>
+            <!-- RESPONSIVE TABLE -->
+            <div class="table-responsive-vertical shadow-z-1">
+                <table class="tg table table-hover table-mc-red">
+                    <thead>
+                      <tr>
+                        <th class="tg-031e">Type</th>
+                        <th class="tg-031e">ID</th>
+                        <th class="tg-031e">NULL alt</th>
+                        <th class="tg-031e">ID</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="tg-031e">TYPE_UNDEFINED</td>
+                        <td class="tg-031e">0</td>
+                        <td class="tg-031e">TYPE_UNDEFINED_NULL</td>
+                        <td class="tg-031e">255</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-031e">TYPE_NUMBER</td>
+                        <td class="tg-031e">1</td>
+                        <td class="tg-031e">TYPE_NUMBER_NULL</td>
+                        <td class="tg-031e">254</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-031e">TYPE_FLOAT</td>
+                        <td class="tg-031e">2</td>
+                        <td class="tg-031e">TYPE_FLOAT_NULL</td>
+                        <td class="tg-031e">253</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-031e">TYPE_STRING</td>
+                        <td class="tg-031e">3</td>
+                        <td class="tg-031e">TYPE_STRING_NULL</td>
+                        <td class="tg-031e">252</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-031e">TYPE_BLOB</td>
+                        <td class="tg-031e">4</td>
+                        <td class="tg-031e">TYPE_BLOB_NULL</td>
+                        <td class="tg-031e">251</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-031e">TYPE_FILE</td>
+                        <td class="tg-031e">5</td>
+                        <td class="tg-031e">TYPE_FILE_NULL</td>
+                        <td class="tg-031e">250</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-031e">TYPE_DATE</td>
+                        <td class="tg-031e">6</td>
+                        <td class="tg-031e">TYPE_DATE_NULL</td>
+                        <td class="tg-031e">249</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-031e">TYPE_BOOL</td>
+                        <td class="tg-031e">7</td>
+                        <td class="tg-031e">TYPE_BOOL_NULL</td>
+                        <td class="tg-031e">248</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-031e">TYPE_STRUCT</td>
+                        <td class="tg-031e">8</td>
+                        <td class="tg-031e">TYPE_STRUCT_NULL</td>
+                        <td class="tg-031e">247</td>
+                      </tr>
+                      <tr>
+                        <td class="tg-031e">TYPE_ARRAY</td>
+                        <td class="tg-031e">9</td>
+                        <td class="tg-031e">TYPE_ARRAY_NULL</td>
+                        <td class="tg-031e">246</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3 class="table-header">Secondary types</h3>
+            <div class="table-responsive-vertical shadow-z-1">
+                <table class="tg table table-hover table-mc-red">
+                    <thead>
+                        <tr>
+                            <th class="tg-031e">Type</th>
+                            <th class="tg-031e">ID</th>
+                            <th class="tg-031e">NULL alt</th>
+                            <th class="tg-031e">ID</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-031e">TYPE_ARRAYN</td>
+                            <td class="tg-031e">10</td>
+                            <td class="tg-031e">TYPE_ARRAYN_NULL</td>
+                            <td class="tg-031e">245</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-031e">TYPE_POINTER</td>
+                            <td class="tg-031e">11</td>
+                            <td class="tg-031e">TYPE_POINTER_NULL</td>
+                            <td class="tg-031e">244</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-031e">TYPE_UNUMBER</td>
+                            <td class="tg-031e">12</td>
+                            <td class="tg-031e">TYPE_UNUMBER_NULL</td>
+                            <td class="tg-031e">243</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
             <h2 class="m-header" id="vs">Показатели эффективности LLSN кодирования</h2>
             <h3 class="s-header">кодирование массива из 1000 знаковых чисел</h3>
