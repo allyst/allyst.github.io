@@ -403,19 +403,18 @@ func main() {
 -export([example]).
 
 example() ->
+    % encoding
+    Declaration = { ?LLSN_TYPE_NUMBER, ?LLSN_TYPE_STRING},
+    Data1 = {12345, "Hello world"},
+    Bin = llsn:encode(Data1, Declaration),
 
-% encoding
-Declaration = { ?LLSN_TYPE_NUMBER, ?LLSN_TYPE_STRING},
-Data1 = {12345, "Hello world"},
-Bin = llsn:encode(Data1, Declaration),
-
-%decoding
-Data2 = llsn:decode(Bin),
-if Data1 == Data2 ->
-    io:format("Ok ~n");
-true ->
-    io:format("Something wrong ~n")
-end.
+    %decoding
+    Data2 = llsn:decode(Bin),
+    if Data1 == Data2 ->
+	io:format("Ok ~n");
+    true ->
+	io:format("Something wrong ~n")
+    end.
 </code>
                 </pre>
             </div>
