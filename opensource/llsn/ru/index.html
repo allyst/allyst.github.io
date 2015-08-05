@@ -380,12 +380,30 @@
                     <code>
 package main
 
-import "fmt"
+import (
+    "fmt"
+    llsn "github.com/allyst/go-llsn"
+    "time"
+)
+
+type ExampleStruct struct {
+    Field1 int64
+    Field2 string
+    Field3 time.Time
+}
 
 func main() {
-    var a [5]int
-    fmt.Println("emp:", a)
+    var value1 ExampleStruct
+    t := time.Date(2015, time.April, 15, 16, 56, 39, 678000000, time.UTC)
+    value := ExampleStruct{12345, "Hello World", t}
+    binvalue := llsn.Encode(&value)
+
+    llsn.Decode(binvalue.Bytes(), &value1)
+
+    fmt.Printf("%s\n", value1)
+
 }
+
 </code>
                 </pre>
             </div>
